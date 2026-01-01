@@ -1,0 +1,9 @@
+INSERT INTO PERSON (NAME, FIRSTNAME, COLOR, PLZ, CITY) VALUES ('Müller', 'Hans', '1', '67742', 'Lauterecken');
+INSERT INTO PERSON (NAME, FIRSTNAME, COLOR, PLZ, CITY) VALUES ('Petersen', 'Peter', '2', '18439', 'Stralsund');
+INSERT INTO PERSON (NAME, FIRSTNAME, COLOR, PLZ, CITY) VALUES ('Johnson', 'Johnny', '3', '88888', 'made up');
+INSERT INTO PERSON (NAME, FIRSTNAME, COLOR, PLZ, CITY) VALUES ('Millenium', 'Milly', '4', '77777', 'made up too');
+INSERT INTO PERSON (NAME, FIRSTNAME, COLOR, PLZ, CITY) VALUES ('Müller', 'Jonas', '5', '32323', 'Hansstadt');
+INSERT INTO PERSON (NAME, FIRSTNAME, COLOR, PLZ, CITY) VALUES ('Fujitsu', 'Tastatur', '6', '42342', 'Japan');
+INSERT INTO PERSON (NAME, FIRSTNAME, COLOR, PLZ, CITY) VALUES ('Andersson', 'Anders', '2', '32132', 'Schweden - ☀');
+INSERT INTO PERSON (NAME, FIRSTNAME, COLOR, PLZ, CITY) VALUES ('Gerber', 'Gerda', '3', '76535', 'Woanders');
+INSERT INTO PERSON (NAME, FIRSTNAME, COLOR, PLZ, CITY) VALUES ('Klaussen', 'Klaus', '2', '43246', 'Hierach');
