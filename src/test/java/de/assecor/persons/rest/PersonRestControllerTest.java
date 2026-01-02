@@ -51,8 +51,7 @@ class PersonRestControllerTest {
     void getAllPersons_ok() throws Exception {
         when(importService.getPersons()).thenReturn(List.of(person()));
 
-        mockMvc.perform(get("/persons")
-                        .accept(MediaType.APPLICATION_JSON))
+        mockMvc.perform(get("/persons").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$[0].id").value(1))
